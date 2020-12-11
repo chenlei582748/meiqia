@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goods-service" />
+        <module name="room-service" />
+        <module name="order-service" />
+        <module name="meiqia-web" />
+        <module name="meeting-service" />
+        <module name="meiqia-zregister" />
+        <module name="meiqia-api" />
+        <module name="user-service" />
+        <module name="meiqia-zcommon" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="goods-service" options="-parameters" />
+      <module name="meeting-service" options="-parameters" />
+      <module name="meiqia-api" options="-parameters" />
+      <module name="meiqia-parent" options="-parameters" />
+      <module name="meiqia-service" options="-parameters" />
+      <module name="meiqia-web" options="-parameters" />
+      <module name="meiqia-zcommon" options="-parameters" />
+      <module name="meiqia-zregister" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="room-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
